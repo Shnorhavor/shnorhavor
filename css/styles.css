@@ -58,9 +58,10 @@ div#sea {
   height: 85px;
   position: absolute;
   bottom: 0;
-  left: -10vw;
-  width: 120%;
-  border-radius: 500%;
+  left: 0;
+  width: 100%;
+  border-top-left-radius: 100% 30px;
+  border-top-right-radius: 100% 30px; 
   background-image: radial-gradient(circle at center top, #23485a, #0d0246);
 }
 
